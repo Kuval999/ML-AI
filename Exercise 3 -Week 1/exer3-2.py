@@ -1,0 +1,7 @@
+n1=list(input("enter list1: "))
+n1=list(map(int,n1))
+n2=list(input("Enter list2: "))
+n2=list(map(int,n2))
+n1.extend(n2)
+n1.sort()
+print("Merged and sorted list: ",n1)
